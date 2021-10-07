@@ -1,14 +1,14 @@
 ---
 name: Standup
 about: Daily log of  individual employee issues and progress
-title: "[NAME, DATE]"
+title: "[DATE]"
 labels: standup
 assignees: ''
 
 ---
 
-**What did I work on yesterday?**
+**Most Recent Milestone:** 
 
-**What am I working on today?**
+**Next Milestone:** 
 
-**What issues are blocking me?**
+**Top Blocker:**
