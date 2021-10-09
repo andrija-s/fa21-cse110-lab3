@@ -1,9 +1,9 @@
 ---
-**date: MM/DD/YYYY**
+Date: MM/DD/YYYY
 
-**Most Recent Milestone:** 
+Most Recent Milestone:
 
-**Next Milestone:** 
+Next Milestone:
 
-**Top Blocker:**
+Top Blocker:
 ---
