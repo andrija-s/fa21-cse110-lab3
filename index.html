@@ -2,120 +2,126 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab 2 - CSE110</title>
-    <link rel="icon" href="hydra.png">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lab 2 - CSE110</title>
+   <link rel="icon" href="hydra.png">
+   <link rel="stylesheet" href="index.css">
+   <style>
+      body {
+         background-color: #567895
+      }
+   </style>
 </head>
 
 <body>
-    <header id="topbar">
-        <nav>
-            <ul>
-                <li><a href="#agenda">Agenda</a></li>
-                <li><a href="#attendence">Attendence</a></li>
-                <li><a href="#record">Record</a></li>
-                <li><a href="#comment">Comment</a></li>
-            </ul>
-        </nav>
-        <h1 id="title1">Death Ray Project</h1>
-        <h2 id="subtitle1">Make a Death Ray</h2>
-        <p id="date1">October 3rd, 2021</p>
-        <hr>
-    </header>
-    <main>
-       <img src="laser.jpeg" alt="Death Ray" width="350"/>
-        <section id="agenda">
-            <h2>Agenda</h2>
-            <div id="prev">
-               <details>
-                  <summary>Unresolved From Previous Meeting</summary>
-                  <p>Making a Death Ray</p>
-               </details>
-            </div>
-            <ol>
-               <li>Discuss the ethical implications of using a Death Ray</li>
-               <li>Make a list of <em>potential</em> targets</li>
-               <li>Make a Death Ray</li>
-            </ol>
-            <div id="next">
-               <details>
-                  <summary>Next Meeting</summary>
-                  <p>Make a Death Ray</p>
-               </details>
-            </div>
-        </section>
-        <section id="attendence">
-            <h2>Attendence</h2>
-            <ul>
-                <li>Andy</li>
-            </ul>
-        </section>
-        <section id="record">
-            <h2>Record</h2>
-               <h3>Video</h3>
-                  <video controls width="350">
-                     <source src="the_meet.mp4" />
-                     Don't work
-                  </video>
-               
-               <h3>Audio</h3>
-                  <audio controls>
-                     <source src="pew.mp4" />
-                        Don't work
-                  </audio>
-        </section>
-        <section id="comment">
-            <h2>Comment</h2>
-               <form action="#">
-                  <label id="name">Name:
-                     <input type="text" name="name" placeholder="Bob" />
-                  </label>
-                  <label for="member">Member: </label>
-                  <select name="member" id="member">
-                     <option value="Yes">Yes</option>
-                     <option value="No">No</option>
-                  </select>
-                  <label id="date">Date:
-                     <input type="date" name="date" />
-                  </label>
-                  <br>
-                  <label id="talky">
-                     <textarea name="talky" cols="80" rows="5" placeholder="Give Praise"></textarea>
-                  </label>
-                  <fieldset>
-                  <legend>Hail Hydra?</legend>
-                  <label>Hail Hydra
-                     <input type="radio" name="comment">
-                  </label>
-                  <label>No
-                     <input type="radio" name="comment">
-                  </label>
-               </fieldset>
-               <fieldset>
-                  <legend>Acceptable Snacks</legend>
-                  <label>Popcorn
-                     <input type="checkbox" name="comment">
-                  </label>
-                  <label>Candycorn
-                     <input type="checkbox" name="comment">
-                  </label>
-                  <label>Rice
-                     <input type="checkbox" name="comment">
-                  </label>
-                  <label>Chocolate
-                     <input type="checkbox" name="comment">
-                  </label>
-               </fieldset>
-               <br>
-               <button type="button">Submit</button>
-               </form>
-        </section>
-    </main>
-    <footer>
-        <p>Hail Hydra</p>
-    </footer>
+   <header id="topbar">
+      <nav>
+         <ul class="bar" style="letter-spacing: 1em;">
+            <li><a href="#agenda">Agenda</a></li>
+            <li><a href="#attendence">Attendence</a></li>
+            <li><a href="#record">Record</a></li>
+            <li><a href="#comment">Comment</a></li>
+         </ul>
+      </nav>
+      <h1 id="title1">Death Ray Project</h1>
+      <h2 id="subtitle1">Make a Death Ray</h2>
+      <p id="date1">October 3rd, 2021</p>
+      <hr>
+   </header>
+   <main>
+      <img src="laser.jpeg" alt="Death Ray" width="350" />
+      <section id="agenda">
+         <h2>Agenda</h2>
+         <div id="prev">
+            <details>
+               <summary>Unresolved From Previous Meeting</summary>
+               <p>Making a Death Ray</p>
+            </details>
+         </div>
+         <ol>
+            <li>Discuss the ethical implications of using a Death Ray</li>
+            <li>Make a list of <em>potential</em> targets</li>
+            <li>Make a Death Ray</li>
+         </ol>
+         <div id="next">
+            <details>
+               <summary>Next Meeting</summary>
+               <p>Make a Death Ray</p>
+            </details>
+         </div>
+      </section>
+      <section id="attendence">
+         <h2>Attendence</h2>
+         <ul>
+            <li>Andy</li>
+         </ul>
+      </section>
+      <section id="record">
+         <h2>Record</h2>
+         <h3>Video</h3>
+         <video controls width="350">
+            <source src="the_meet.mp4" />
+            Don't work
+         </video>
+
+         <h3>Audio</h3>
+         <audio controls>
+            <source src="pew.mp4" />
+            Don't work
+         </audio>
+      </section>
+      <section id="comment">
+         <h2>Comment</h2>
+         <form action="#">
+            <label id="name">Name:
+               <input type="text" name="name" placeholder="Bob" />
+            </label>
+            <label for="member">Member: </label>
+            <select name="member" id="member">
+               <option value="Yes">Yes</option>
+               <option value="No">No</option>
+            </select>
+            <label id="date">Date:
+               <input type="date" name="date" />
+            </label>
+            <br>
+            <label id="talky">
+               <textarea name="talky" cols="80" rows="5" placeholder="Give Praise"></textarea>
+            </label>
+            <fieldset>
+               <legend>Hail Hydra?</legend>
+               <label>Hail Hydra
+                  <input type="radio" name="comment">
+               </label>
+               <label>No
+                  <input type="radio" name="comment">
+               </label>
+            </fieldset>
+            <fieldset>
+               <legend>Acceptable Snacks</legend>
+               <label>Popcorn
+                  <input type="checkbox" name="comment">
+               </label>
+               <label>Candycorn
+                  <input type="checkbox" name="comment">
+               </label>
+               <label>Rice
+                  <input type="checkbox" name="comment">
+               </label>
+               <label>Chocolate
+                  <input type="checkbox" name="comment">
+               </label>
+            </fieldset>
+            <br>
+            <button type="button">Submit</button>
+         </form>
+      </section>
+   </main>
+   <footer>
+      <p>Hail Hydra</p>
+   </footer>
 </body>
 
 </html>
