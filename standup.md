@@ -1,6 +1,5 @@
 ---
-where: "[Location]"
-date: "[DATE]"
+date: MM/DD/YYYY
 ---
 
 **Most Recent Milestone:** 
