@@ -9,4 +9,20 @@
    list-style-type: none;
    letter-spacing: normal;
    display: inline-block;
+   position: relative;
+}
+
+main div {
+   color: red;
+   text-decoration: underline;
+   font-size: 20mm 1cm;
+   text-align: center;
+   display: inline;
+   position: static;
+}
+main > h2 {
+   height: 115%;
+   width: 110%;
+   max-width: 100px;
+   min-width: 5px;
 }

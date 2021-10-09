@@ -1,10 +1,9 @@
 ---
-where: "[Location]"
-date: "[DATE]"
+Date: MM/DD/YYYY
+
+Most Recent Milestone:
+
+Next Milestone:
+
+Top Blocker:
 ---
-
-**Most Recent Milestone:** 
-
-**Next Milestone:** 
-
-**Top Blocker:**
