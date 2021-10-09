@@ -4,25 +4,56 @@
    border-radius: 1em;
    border-top-right-radius: 10% 30%;
 }
-
+@media only screen and (max-width: 1200px) {
+  * {
+    background-color: greenyellow;
+  }
+}
 .bar li {
+   font-family: 'Akronim', cursive;
    list-style-type: none;
    letter-spacing: normal;
    display: inline-block;
-   position: relative;
+   position: static;
 }
-
+main.section.rec {
+   color:lawngreen;
+}
 main div {
    color: red;
    text-decoration: underline;
    font-size: 20mm 1cm;
    text-align: center;
    display: inline;
-   position: static;
+   position: relative;
+   top: 40px;
+   left: 10px;
+}
+main div:hover, h2:hover {
+   color: blue;
+   margin: 10px 10px 10px 10px;
+}
+main div:active {
+   color: green;
+   margin-top: 20px;
 }
 main > h2 {
    height: 115%;
    width: 110%;
    max-width: 100px;
    min-width: 5px;
+   display:flex;
+   padding-left: 1px;
+   padding: 10px 10px 10px 10px;
+}
+select[name="member"] {
+   color: red;
+}
+h2 + ul {
+   color:blueviolet;
+   display:grid;
+}
+
+h2 ~ form {
+   color:chocolate;
 }
